@@ -8,28 +8,30 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <h1>Guess the director!</h1>
-        <button type="button" class="btn btn-primary btn-lg">Push To Start</button>
+        <button type="button" class="btn btn-primary btn-lg" button-id="start">Push To Start</button>
     </header>
     <div>
-        <div class=row-6 rowspan="12" id=wrapper>
-            <div class=col-6 col-span=12>
+        <div class=row id=wrapper>
+            <div class="col-6">
                 <p id="directorIs">And the Director is...</p>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg" button-id="hint">Hint!</button>
                 <p id=hints></p>
             </div>
 
 
-            <div class=col-6 rowspan="12" id=wrapper>
+            <div class="col-6">
                 <p id=directors></p>
                 <p id=wins></p>
                 <p id=losses></p>
                 <p id=guessLeft></p>
                 <p id=lettersGuessed></p>
-                <button type="button" class="btn btn-primary btn-lg">Hint!</button>
             </div>
 
 
