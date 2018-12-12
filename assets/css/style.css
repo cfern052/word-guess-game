@@ -1,0 +1,16 @@
+div{
+    border: solid;
+    border-width:thin;
+
+}
+
+header{
+    margin-bottom: 10pts;
+    padding: 20pts;
+    text-align: center;
+}
+
+body{
+    background-color:black;
+    color: grey;
+}
