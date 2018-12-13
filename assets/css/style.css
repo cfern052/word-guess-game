@@ -8,13 +8,18 @@ div{
 }
 
 header{
-    margin-bottom: 10pts;
-    padding: 20pts;
+    
+
     text-align: center;
     background-color: white;
+    margin: 5%;
 }
 
 body{
     background-image: url(../images/diagonal-squares.png);
     color: grey;
+}
+
+#wrapper{
+    margin-bottom: 5%;
 }

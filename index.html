@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,10 +16,11 @@
         <h1>Guess the director!</h1>
         <button type="button" class="btn btn-primary btn-lg" button-id="start">Push To Start</button>
     </header>
-    <div>
+    
         <div class=row id=wrapper>
             <div class="col-6">
                 <p id="directorIs">And the Director is...</p>
+                <img src="assets/images/director-chair2.jpg" class="directorImage">
                 <br>
                 <button type="button" class="btn btn-primary btn-lg" button-id="hint">Hint!</button>
                 <p id=hint></p>
@@ -32,10 +33,10 @@
                 <p id=guess></p>
                 <p id=lettersGuessed></p>
             </div>
+        </div>
 
 
-
-            <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
