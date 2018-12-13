@@ -1,6 +1,9 @@
 div{
     border: solid;
     border-width:thin;
+    /* background-color: black; */
+    color: grey;
+    background-color: white;
 
 }
 
@@ -8,9 +11,10 @@ header{
     margin-bottom: 10pts;
     padding: 20pts;
     text-align: center;
+    background-color: white;
 }
 
 body{
-    background-color:black;
+    background-image: url(../images/diagonal-squares.png);
     color: grey;
 }
