@@ -1,8 +1,6 @@
 div{
     border: solid;
     border-width:thin;
-    /* background-color: black; */
-    color: grey;
     background-color: white;
     border-radius: 25px;
 
@@ -20,19 +18,21 @@ header{
 
 body{
     background-image: url(../images/diagonal-squares.png);
-    color: grey;
+    
 }
 
 p{
     font-weight: bold;
+    color:black;
 }
 #wrapper{
     margin-bottom: 5%;
     border-radius: 25px;
     background-image: url(../images/diagonal-squares.png);
     margin:5%;
+    border:0;
 }
 
-#start{
+.start{
     margin:1%;
 }
