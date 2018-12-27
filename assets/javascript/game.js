@@ -4,7 +4,6 @@ var hints = { Kubrick: "2001 Space Odessy", Speilberg: "Jaws", Gilliam: "12 Monk
 var letterGuess = [];
 var currentCorrectAnswer = null;
 var guessArray = [];
-
 var winCount = 0;
 var lossCount = 0;
 var guessLeft = 10;
@@ -71,23 +70,23 @@ hintButton.onclick = function () {
   // var directorIndex = dirList.indexOf(directors);
   // var hintIndex = hint.indexOf(hints);
   // showHint.innerHTML = "Hint: - " + hints[directorIndex][hintIndex];
-  if (directors[0]) {
+  if (randDirector[0]) {
     var hintk = hints.Kubrick
     document.getElementById("hint").textContent = hintk;
   }
-  if (directors[1]) {
+  if (randDirector[1]) {
     var hintk = hints.Speilberg
     document.getElementById("hint").textContent = hintk;
   }
-  if (directors[2]) {
+  if (randDirector[2]) {
     var hintk = hints.Gilliam
     document.getElementById("hint").textContent = hintk;
   }
-  if (directors[3]) {
+  if (randDirector[3]) {
     var hintk = hints.Lucas
     document.getElementById("hint").textContent = hintk;
   }
-  if (directors[4]) {
+  if (randDirector[4]) {
     var hintk = hints.Tarantino
     document.getElementById("hint").textContent = hintk;
   }
@@ -97,7 +96,7 @@ hintButton.onclick = function () {
 document.onkeyup = function (event) {
 
   var letterGuess = event.key;
-  //var compDirector = directors[Math.floor(Math.random() * directors.length)];
+ 
   letterGuessText.append(letterGuess)
   for( i = 0 ; i < currentCorrectAnswer.length; i++){
     currentCorrectAnswer[i]
@@ -113,23 +112,9 @@ document.onkeyup = function (event) {
 };
   
 
-  //if (letterGuess.indexOf(currentCorrectAnswer) != -1){ // if the character is found
-   // for (var i = 0; i < wordLength; i ++){ // loop on all characters
-   //    if (currentCorrectAnswer[i] == letterGuess) // if this is an occurance
-   //      guessArray[i] = currentCorrectAnswer[i];
+ 
     }
- // }else{
-    // wrong choice
- // }
-  // if (alreadyGuessedArray.includes(letterGuess)) {
-  //   alert("Letter Already Guessed!");
-  // } if (currentCorrectAnswer.indexOf(letterGuess) > -1) {
-  //   // iterate through director string
-  //   //when the index is === keypress, replace array value at that index with keypress
-  //   //call display array function
-  // } else {
-  //   alreadyGuessedArray.push(letterGuess);
-  // }
+
 
 
 };
